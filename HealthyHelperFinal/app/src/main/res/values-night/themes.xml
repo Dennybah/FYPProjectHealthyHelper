@@ -1,0 +1,10 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.healthyHelper" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/secondaryPurple</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">28dp</item>
+    </style>
+</resources>

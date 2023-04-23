@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/articlesMenuItem"
+        android:title="@string/articlesOverflowMenu"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/bloodRecorderMenuItem"
+        android:title="@string/blood_recorderOverflowMenu"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/recipeMenuItem"
+        android:title="@string/recipesOverflowMenu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/shoppingCartMenuItem"
+        android:title="@string/shoppingCartOverflowMenu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/homeMenuItem"
+        android:title="@string/mainMenuOverflowMenu"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/howToUse"
+        android:title="@string/howToUseAppOverflowMenu"
+        app:showAsAction="never" />
+
+</menu>
+
+
+

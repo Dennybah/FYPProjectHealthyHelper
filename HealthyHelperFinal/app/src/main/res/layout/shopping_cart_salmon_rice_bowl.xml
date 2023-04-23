@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shoppingCartSalmonRiceBowlConstraintLayoutMain"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appBlue"
+    tools:context=".HowToUseFeatures">
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolBar" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <ScrollView
+        android:id="@+id/shoppingCartIngredientsScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1">
+
+        <LinearLayout
+            android:id="@+id/shoppingCartLinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recipeTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="@string/shoppingCartSalmonRiceBowlTags"
+                android:textColor="@color/appBlack"
+                android:textSize="21sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/ingredient1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient1"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient2"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient3"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient4"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient5"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient6"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient7"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient8"
+                android:textSize="17sp"
+                tools:ignore="TextContrastCheck" />
+
+            <Button
+                android:id="@+id/ingredient9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient9"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient10"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient11"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient12"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient13"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient14"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/ingredient15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/appYellow"
+                android:gravity="start|center_vertical"
+                android:lines="2"
+                android:text="@string/shoppingCartSalmonRiceBowlIngredient15"
+                android:textSize="17sp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.74" />
+
+    <TextView
+        android:id="@+id/howToUse"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="@string/shoppingCartInstructions"
+        android:textColor="@color/appBlack"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.88" />
+
+    <Button
+        android:id="@+id/resetShoppingCartButton"
+        android:layout_width="0dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/appYellow"
+        android:text="@string/shoppingCartResetShoppingCartButton"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

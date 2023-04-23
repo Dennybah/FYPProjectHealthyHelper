@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appBlack">#FF000000</color>
+    <color name="appWhite">#FFFFFFFF</color>
+    <color name="primaryPurple">#FF6200EE</color>
+    <color name="secondaryPurple">#FF3700B3</color>
+    <color name="appBlue">#C8E7E9</color>
+    <color name="appYellow">#E6E600</color>
+    <color name="articleHeadingGrey">#EEEEEE</color>
+</resources>
